@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Please Fill The Form</h1>
+    <hr />
+    <h2>Account Info</h2>
+
+    <table>
+      <tr>
+        <td>
+          <label for="username">Username:</label>
+        </td>
+        <td style="width: 150px"></td>
+        <td><input type="text" id="username" placeholder="Username" /></td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="Email">Email:</label>
+        </td>
+        <td style="width: 150px"></td>
+        <td><input type="text" id="Email" placeholder="Email" /></td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="password">Password:</label>
+        </td>
+        <td style="width: 150px"></td>
+        <td><input type="text" id="password" placeholder="Password" /></td>
+      </tr>
+    </table>
+
+    <h2>Personal Info</h2>
+    <table>
+      <tr>
+        <td>
+          <label for="Name">Name:</label>
+        </td>
+        <td style="width: 150px"></td>
+        <td><input type="text" id="Name" placeholder="Name" /></td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="Surname">Surname:</label>
+        </td>
+        <td style="width: 150px"></td>
+        <td><input type="text" id="Surname" placeholder="Surname" /></td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="cities">Cities:</label>
+        </td>
+        <td style="width: 150px"></td>
+        <td>
+          <select name="Cities" id="cities">
+            <option>Select</option>
+            <option value="35">Izmir</option>
+            <option value="34">Istanbul</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="gender">Gender:</label>
+        </td>
+        <td style="width: 150px"></td>
+        <td>
+          <input type="radio" name="gender" /> Male
+          <input type="radio" name="gender" /> Girl
+          <input type="radio" name="gender" /> Other
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="hobbies">Hobbies:</label>
+        </td>
+        <td style="width: 150px"></td>
+        <td>
+          <input type="checkbox" /> Cinema <input type="checkbox" /> Tennis
+          <input type="checkbox" /> Golf
+        </td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td></td>
+        <td><button type="submit">Save</button></td>
+      </tr>
+    </table>
+  </body>
+</html>

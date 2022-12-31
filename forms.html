@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="register.php">
+      <div>
+        <label for="Name">Name</label>
+        Name:<input type="text" id="Name" />
+      </div>
+
+      <div>
+        <label for="Name">Surname</label>
+        Name:<input type="text" id="Surname" />
+      </div>
+
+      <div>
+        <label for="intro">Talk About Yourself</label>
+        <textarea id="Intro" cols="30"></textarea>
+
+      <div>
+        <p>What is the most favorite programming language?</p>
+
+        <input type="radio" id="html" name="Coding" />
+        <label for="html">HTML</label>
+
+        <input type="radio" id="css" name="Coding" />
+        <label for="css">CSS</label>
+
+        <input type="radio" id="JavaScript" name="Coding" />
+        <label for="JavaScript">JavaScript</label>
+      </div>
+
+      <div>
+        <p>What is the most favorite programming language?</p>
+
+        <input type="checkbox" id="html2" />
+        <label for="html2">HTML</label>
+
+        <input type="checkbox" id="css2" />
+        <label for="css2">CSS</label>
+
+        <input type="checkbox" id="JavaScript2" />
+        <label for="JavaScript2">JavaScript</label>
+      </div>
+
+
+      <div>
+
+<label for="cities">Cities</label>
+<select id="cities">
+<option value="41">Kocaeli</option>
+<option value="34">Istanbul</option></select>
+
+
+      </div>
+
+<div>
+
+    <label for="email">E-mail</label>
+    <input type="email" id="email">
+</div>
+
+
+<div>
+<label for="password">password</label>
+<input type="password" id="password">
+
+
+</div>
+
+
+<div>
+
+<label for="birthday">Birthday</label>
+<input type="date" name="birthday" id="birthday">
+
+</div>
+
+<button type="reset">Reset</button>
+<button type="submit">save</button>
+    </form>
+  </body>
+</html>
